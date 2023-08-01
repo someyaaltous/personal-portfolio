@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+:root {
+  --mainColor: #cb3931;
+  --subColor: #f0f0f0;
+}
+body {
+  font-family: "Poppins";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+body::before {
+  background-color: var(--subColor);
+  width: 100%;
+  height: 70%;
+  position: absolute;
+  content: "";
+  top: 0;
+}
+body::after {
+  background-color: var(--mainColor);
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  content: "";
+  bottom: 0;
+}
