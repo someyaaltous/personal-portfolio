@@ -31,3 +31,121 @@ body::after {
   content: "";
   bottom: 0;
 }
+.container {
+  position: absolute;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 80%;
+  height: 90%;
+  background-color: white;
+  z-index: 10;
+  overflow: auto;
+  padding-left: 50px;
+}
+header {
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+header p {
+  width: 40%;
+  font-size: 1.2rem;
+}
+.avatar {
+  position: absolute;
+  right: 20%;
+}
+.avatar img {
+  height: 450px;
+  width: 340px;
+  object-fit: cover;
+}
+.about {
+  padding-left: 20px;
+  position: relative;
+  z-index: -1;
+  height: 500px;
+  gap: 20px;
+  align-items: center;
+  background-color: var(--subColor);
+  padding-top: 100px;
+}
+.about a {
+  text-decoration: none;
+  color: var(--mainColor);
+}
+.content {
+  width: 70%;
+}
+.content h1 {
+  font-size: 7rem;
+}
+.links {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 50%;
+  top: 25%;
+  gap: 10px;
+}
+.links a {
+  font-size: 1.3rem;
+}
+.footer-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+.footer-about span {
+  font-size: 18px;
+  color: var(--mainColor);
+}
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+.social-media a {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+}
+.social-media a svg {
+  width: 35px;
+  height: 35px;
+}
+.social-media a:hover svg {
+  fill: var(--mainColor);
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+.section-education {
+  margin-right: 7%;
+}
+.title {
+  color: var(--mainColor);
+  margin-top: 5%;
+}
+.part-one {
+  font-size: 0.9rem;
+  margin-top: 5%;
+}
+.part-two {
+  font-size: 0.9rem;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.part-one span {
+  color: var(--mainColor);
+}
+.part-two span {
+  color: var(--mainColor);
+}
+.pargraph {
+  color: gray;
+}
+.career-name {
+  color: var(--mainColor);
+}
